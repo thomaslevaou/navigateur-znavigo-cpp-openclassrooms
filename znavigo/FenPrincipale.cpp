@@ -155,7 +155,6 @@ void FenPrincipale::pageSuivanteOngletActuel() {
 }
 
 void FenPrincipale::updatePageTitle (QString newTitle) {
-  // On pourrait tronquer le titre, mais flemme
   setWindowTitle(newTitle);
   onglets->setTabText(onglets->currentIndex(), newTitle);
   QWebView *currentPage = pageActuelle();
