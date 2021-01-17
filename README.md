@@ -6,6 +6,8 @@ site OpenClassrooms, à l'adresse suivante : https://openclassrooms.com/fr/cours
 Ce projet consiste à développer un navigateur Web entièrement réalisé en C++ et Qt, à partir
 du moteur Web propre à Qt.
 Ce navigateur Web a pour page d'accueil la page d'accueil du site DuckDuckGo.
+
+
 Une navigation par onglets est possible grâce à ce navigateur Web. Il est aussi possible
 d'appeler la page précédente, la page suivante, de réactualiser, arrêter un chargement de page
 ou revenir à la page d'accueil de l'onglet actif. Pour ce faire, des icônes à gauche
@@ -19,7 +21,7 @@ onglet, fermer l'onglet actif et de fermer le navigateur. Ces trois raccourcis s
 Le menu "A propos" du navigateur affiche des informations complémentaires sur ce projet,
 ainsi qu'une redirection sur le site de Qt.
 
-
+<br />
 
 Après avoir cloné ce projet, le programme peut être exécuté en entrant les commandes suivantes
 à sa racine, dans une fenêtre de commande Linux (le compilateur g++, Qt et l'éditeur de texte Vim
